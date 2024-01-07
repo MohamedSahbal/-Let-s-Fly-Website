@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+  }
+/* ===============
+   1. HEADER
+================ */
+a{
+    color:white;
+text-decoration: none;
+padding:27px;
+font-size: 20px;
+display:inline-block;
+}
+a:hover{
+    background-color:rgba(255, 255, 255, 0.722);
+}
+
+header{
+    display:flex;
+    justify-content: space-between;
+    background-color:black;
+}
+.hot{
+    margin-left: 0px;
+    }
+    .car{
+      margin-right: 230px;
+    
+    }
+.logo{
+background-color: rgb(220, 188, 13);
+font-family: Arial, Helvetica, sans-serif;
+}
+/* ===============
+   2. Backgroud
+================ */
+.barca {
+    background-image: url("img2/hote.jpeg");
+    width: 100%;
+    min-height: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .form {
+    padding: 120px;
+  
+  }
+  .form h1{
+    font-size: 85px;
+    margin-left: 50px;
+    background-color: none;
+    color:black;
+  }
+  .form form{
+    margin: 50px 160px;
+  
+  }
+  .form form{
+    display: flex;
+  }
+  form input{
+    height: 75px;
+    width: 100%
+    padding: 0px 15px;
+    padding-left:80px;
+  }
+  form .input{
+    height: 80px;
+    width: 100%
+    padding : 0px 22px;
+
+    padding-left: 80px ;
+  
+  }
+  .input-area p{
+    font-size: 40px;
+    color:black;
+  }
+  .buton{
+        text-decoration: none;
+        display: inline-block;
+        color: white;
+        font-size:15px;
+        background-color: black;
+        border:  2px solid ;
+        border-radius: 50px;
+        padding: 14px 50px;
+        margin-bottom: 0px;
+        margin-top: 20px;
+        margin-left: 900px;
+        
+    }
+    
+    .buton:hover{
+        background-color: rgb(220, 188, 13);
+    }
+/* ===============
+   2. Packages
+================ */
+#team{
+  
+    padding-top: 50px;
+}
+.our-team, .meet{
+    text-align: center;
+
+    
+}
+
+.our-team{
+    margin-bottom: 14px;
+}
+
+.avatar{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.jone{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.division{
+ 
+    text-align: center;
+    margin-top: 50px;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.gray{
+    margin-top: 60px;
+
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #333333 ;
+    display: flex;
+    justify-content: space-around;
+}
+.our-work{
+width: 25%;
+color:white;
+line-height: 24px;
+}
+
+.white{
+    background-color: rgb(254, 248, 248);
+    height: 360px;
+    width: 23%;
+
+    line-height: 30px;
+}
+
+.snow{
+    height: 160px;
+    width: 100%;
+}
+
+
+
+.white h3,  .white p{
+    padding-left: 12px;
+}
+
+.our-work h2{
+    margin-bottom: 20px;
+}
+
+.our-work p{
+    margin-left: 7px;
+}
+.fa-star{
+    font-size: 12px;
+    color:rgb(107, 107, 16);
+
+}
+/* ===============
+  6- footer
+================ */
+.footer-title {
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.footer-title span {
+    color:teal;
+}
+footer{
+   margin-top: 10px;
+   background-color: black;
+   padding: 40px ;
+   margin-top: 60px;
+}
+
+footer p{
+   text-align: center;
+   margin-bottom: 20px;
+   font-size: 25px;
+   color: white;
+}
+
+.main-icon{
+   
+   display: flex;
+   justify-content: center;
+}
+
+.main-icon div{
+    background-color: rgb(220, 188, 13);;
+    color: white;
+
+    padding: 8px 16px;
+
+    margin-left: 5px;
+}
+
+.main-icon div:hover{
+    background-color: rgb(204, 202, 202);
+}

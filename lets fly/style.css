@@ -1,0 +1,54 @@
+
+body{
+    background: url("img.jpeg");
+    background-size: cover;
+    font-family: sans-serif;
+}
+.form-center{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 20%;
+    height: 15%;
+    background: rgb(0,0,0,0.5);
+    border-radius: 15px;
+}
+.form-buttom{
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 30%;
+    height: 42%;
+    background: rgb(0,0,0,0.5);
+    border-radius: 15px;
+}  
+/* text login */
+h2{
+    color: aliceblue;
+    text-align: center;
+    margin-top: 42px;
+}
+h3{
+    color: aliceblue;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.ta{
+    margin-bottom: 0px;
+    margin-top: 30px;
+}
+.but{
+    text-decoration: none;
+    color: white;
+    font-size:15px;
+    background-color: black;
+    border:  2px solid ;
+    border-radius: 50px;
+    padding: 14px 30px;
+    margin-left:39%;
+}
+.but:hover{
+    background-color: rgb(16, 34, 113);
+}
